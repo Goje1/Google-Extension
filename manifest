@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "EdgeGamers Organization quick access Pad",
+  "version": " 1.2",
+  "description": "EdgeGamers Organization quick access Pad by Goje",
+  "icons": {
+    "48": "img/48x48.jpg",
+    "128": "img/128x128.jpg",
+    "16": "img/calendar_view_month.png"
+  },
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_title": "EdgeGamers Organization Quick Access Pad",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
